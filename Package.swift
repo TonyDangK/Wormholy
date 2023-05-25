@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "Wormholy",
+    platforms: [.iOS(.v14),],
     products: [
         .library(
             name: "Wormholy",
@@ -15,7 +16,7 @@ let package = Package(
             name: "Wormholy",
             path: "Sources",
             exclude: [],
-            resources: [.copy("Resources")]
+            resources: [.process("Resources")]
         )
     ]
 )
