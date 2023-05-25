@@ -15,7 +15,7 @@ let package = Package(
             name: "Wormholy",
             path: "Sources",
             exclude: [],
-            resources: [.process("Resources")]
+            resources: [.copy("Resources")]
         )
     ]
 )
