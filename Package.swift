@@ -15,6 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "Wormholy",
+            path: "Source",
             dependencies: []),
         .testTarget(
             name: "WormholyTests",
